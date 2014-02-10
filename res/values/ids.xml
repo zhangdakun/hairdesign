@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="bottom_bar_buttons">false</item>
+    <item type="id" name="stream_button">false</item>
+    <item type="id" name="focus_button">false</item>
+    <item type="id" name="message_button">false</item>
+    <item type="id" name="message_four">false</item>
+    <item type="id" name="ListView">false</item>
+    <item type="id" name="top_bar_buttons">false</item>
+    <item type="id" name="imageview">false</item>
+    <item type="id" name="textview">false</item>
+    <item type="id" name="textviewtwo">false</item>
+    <item type="id" name="Title">false</item>
+    <item type="id" name="item_text">false</item>
+    <item type="id" name="AdLinearLayout">false</item>
+    <item type="id" name="tabhost">false</item>
+    <item type="id" name="view1">false</item>
+    <item type="id" name="more_scroll">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="btn">false</item>
+</resources>

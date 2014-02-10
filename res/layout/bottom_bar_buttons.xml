@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/bottom_bar_buttons"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bar_background"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="128.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <Button
+                android:id="@id/stream_button"
+                android:layout_width="wrap_content"
+                android:layout_height="60.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/main_bottom_btn_bg_selector"
+                android:drawableTop="@drawable/main_message_selector"
+                android:text="@string/bottom_button_stream_gzhang"
+                android:textColor="@drawable/white"
+                android:textSize="10.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="128.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <Button
+                android:id="@id/focus_button"
+                android:layout_width="wrap_content"
+                android:layout_height="60.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/main_bottom_btn_bg_selector"
+                android:drawableTop="@drawable/main_message_selector"
+                android:text="@string/bottom_button_tab_focus"
+                android:textColor="@drawable/white"
+                android:textSize="10.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="128.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null" >
+
+            <Button
+                android:id="@id/message_button"
+                android:layout_width="wrap_content"
+                android:layout_height="60.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/main_bottom_btn_bg_selector"
+                android:drawableTop="@drawable/main_message_selector"
+                android:text="@string/bottom_button_message"
+                android:textColor="@drawable/white"
+                android:textSize="10.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="128.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@null"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@id/message_four"
+                android:layout_width="wrap_content"
+                android:layout_height="60.0dip"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/main_bottom_btn_bg_selector"
+                android:drawableTop="@drawable/main_message_selector"
+                android:text="@string/bottom_button_four"
+                android:textColor="@drawable/white"
+                android:textSize="10.0sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, FirstActivity!</string>
+    <string name="app_name">发型设计</string>
+    <string name="bottom_button_stream_gzhang">扎发技巧</string>
+    <string name="bottom_button_tab_focus">脸型与发型</string>
+    <string name="bottom_button_message">护法技巧</string>
+    <string name="bottom_button_four">更多</string>
+</resources>
